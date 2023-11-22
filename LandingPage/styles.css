@@ -1,0 +1,116 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 50px;
+}
+
+ h1 {
+  margin: 0;
+  border-width: 3px;
+  border-style: solid;
+  border-image: 
+    linear-gradient(
+      to bottom, 
+      white, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+}
+
+.image{
+  width: 300px;
+  padding-left: 50px;
+  border-width: 3px;
+  border-style: solid;
+  border-image: 
+  linear-gradient(
+    to bottom, 
+    red, 
+    rgba(0, 0, 0, 0)
+  ) 1 100%;
+}
+
+.features {
+  display: flex;
+  /* justify-content: space-around; */
+  padding: 50px;
+  justify-content: space-evenly;
+}
+
+.feature {
+  text-align: center;
+}
+
+.img1, .img3{
+  width: 300px;
+  border-width: 3px;
+  border-style: solid;
+  border-image: 
+    linear-gradient(
+      to bottom, 
+      yellow, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+}
+
+.img2{
+height: 300px;
+width: 300px;
+border-width: 3px;
+border-style: solid;
+border-image: 
+  linear-gradient(
+    to bottom, 
+    black, 
+    rgba(0, 0, 0, 0)
+  ) 1 100%;
+}
+
+.joinus {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 50px;
+}
+
+.button {
+  background-color: rgb(0, 217, 0);
+    color: white;
+    /* border: none; */
+    border-color: green;
+    border: solid;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    /* height: 100px; */
+    border-radius: 5px;
+    padding: 10px 8px 8px 10px;
+    transition: .3s;
+    cursor: grab;
+    text-decoration-line: none;
+}
+
+.button:hover {
+  opacity: 0.8;
+  background-color: red;
+  box-shadow: 5px 5px black;
+  transform: translateY(-2px);
+}
+
+.button:active {
+  background-color: rgb(169, 169, 252);
+  transform: translateY(2px);
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
